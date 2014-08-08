@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="lua" projectFiles="true">
+        <itemPath>lua/lapi.h</itemPath>
+        <itemPath>lua/lauxlib.h</itemPath>
+        <itemPath>lua/lcode.h</itemPath>
+        <itemPath>lua/lctype.h</itemPath>
+        <itemPath>lua/ldebug.h</itemPath>
+        <itemPath>lua/ldo.h</itemPath>
+        <itemPath>lua/lfunc.h</itemPath>
+        <itemPath>lua/lgc.h</itemPath>
+        <itemPath>lua/llex.h</itemPath>
+        <itemPath>lua/llimits.h</itemPath>
+        <itemPath>lua/lmem.h</itemPath>
+        <itemPath>lua/lobject.h</itemPath>
+        <itemPath>lua/lopcodes.h</itemPath>
+        <itemPath>lua/lparser.h</itemPath>
+        <itemPath>lua/lstate.h</itemPath>
+        <itemPath>lua/lstring.h</itemPath>
+        <itemPath>lua/ltable.h</itemPath>
+        <itemPath>lua/ltm.h</itemPath>
+        <itemPath>lua/lua.h</itemPath>
+        <itemPath>lua/lua.hpp</itemPath>
+        <itemPath>lua/luaconf.h</itemPath>
+        <itemPath>lua/lualib.h</itemPath>
+        <itemPath>lua/lundump.h</itemPath>
+        <itemPath>lua/lvm.h</itemPath>
+        <itemPath>lua/lzio.h</itemPath>
+      </logicalFolder>
+      <itemPath>CApplication.h</itemPath>
+      <itemPath>CVMInterface.h</itemPath>
+      <itemPath>luna.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="scripts" displayName="scripts" projectFiles="true">
+      <itemPath>scripts/VAlphaBuildGame.lua</itemPath>
+      <itemPath>scripts/VSLVBuildGame.lua</itemPath>
+      <itemPath>scripts/test.lua</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="lua" projectFiles="true">
+        <itemPath>lua/lapi.c</itemPath>
+        <itemPath>lua/lauxlib.c</itemPath>
+        <itemPath>lua/lbaselib.c</itemPath>
+        <itemPath>lua/lbitlib.c</itemPath>
+        <itemPath>lua/lcode.c</itemPath>
+        <itemPath>lua/lcorolib.c</itemPath>
+        <itemPath>lua/lctype.c</itemPath>
+        <itemPath>lua/ldblib.c</itemPath>
+        <itemPath>lua/ldebug.c</itemPath>
+        <itemPath>lua/ldo.c</itemPath>
+        <itemPath>lua/ldump.c</itemPath>
+        <itemPath>lua/lfunc.c</itemPath>
+        <itemPath>lua/lgc.c</itemPath>
+        <itemPath>lua/linit.c</itemPath>
+        <itemPath>lua/liolib.c</itemPath>
+        <itemPath>lua/llex.c</itemPath>
+        <itemPath>lua/lmathlib.c</itemPath>
+        <itemPath>lua/lmem.c</itemPath>
+        <itemPath>lua/loadlib.c</itemPath>
+        <itemPath>lua/lobject.c</itemPath>
+        <itemPath>lua/lopcodes.c</itemPath>
+        <itemPath>lua/loslib.c</itemPath>
+        <itemPath>lua/lparser.c</itemPath>
+        <itemPath>lua/lstate.c</itemPath>
+        <itemPath>lua/lstring.c</itemPath>
+        <itemPath>lua/lstrlib.c</itemPath>
+        <itemPath>lua/ltable.c</itemPath>
+        <itemPath>lua/ltablib.c</itemPath>
+        <itemPath>lua/ltm.c</itemPath>
+        <itemPath>lua/lua.c</itemPath>
+        <itemPath>lua/luac.c</itemPath>
+        <itemPath>lua/lundump.c</itemPath>
+        <itemPath>lua/lvm.c</itemPath>
+        <itemPath>lua/lzio.c</itemPath>
+      </logicalFolder>
+      <itemPath>CApplication.cpp</itemPath>
+      <itemPath>CVMInterface.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>scripts</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>/usr/include/vmware-vix</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/vmware-vix</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/usr/lib</pElem>
+            <pElem>/usr/lib/vmware-vix/Workstation-10.0.0-and-vSphere-5.5.0/32bit/</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>/usr/lib/vmware-vix/Workstation-10.0.0-and-vSphere-5.5.0/32bit</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+            <linkerLibFileItem>/usr/lib/vmware-vix/Workstation-10.0.0-and-vSphere-5.5.0/32bit/libgvmomi-vix-1.13.2.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/vmware-vix/Workstation-10.0.0-and-vSphere-5.5.0/32bit/libvix.so</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="CApplication.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CApplication.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CVMInterface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CVMInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lapi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lapi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lauxlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lauxlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lbaselib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lbitlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lcode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lcode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lcorolib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lctype.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lctype.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/ldblib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ldebug.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ldebug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/ldo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ldo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/ldump.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lfunc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lfunc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lgc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lgc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/linit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/liolib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/llex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/llex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/llimits.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lmathlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lmem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lmem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/loadlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lobject.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lobject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lopcodes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lopcodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/loslib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lparser.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lparser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lstate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lstate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lstring.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lstring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lstrlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ltable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ltable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/ltablib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ltm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ltm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lua.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lua.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lua.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/luac.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/luaconf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lualib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lundump.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lundump.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lvm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lvm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lzio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lzio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="luna.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="scripts/VAlphaBuildGame.lua" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scripts/VSLVBuildGame.lua" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scripts/test.lua" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>ln -s test.lua ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/test.lua</customToolCommandline>
+          <customToolOutputs>test.lua</customToolOutputs>
+        </customTool>
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>/usr/include/vmware-vix</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>/usr/include/vmware-vix</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/usr/lib</pElem>
+            <pElem>/usr/lib/vmware-vix/Workstation-10.0.0-and-vSphere-5.5.0/32bit/</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>/usr/lib/vmware-vix/Workstation-10.0.0-and-vSphere-5.5.0/32bit</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibStdlibItem>DynamicLinking</linkerLibStdlibItem>
+            <linkerLibFileItem>/usr/lib/vmware-vix/Workstation-10.0.0-and-vSphere-5.5.0/32bit/libgvmomi-vix-1.13.2.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/lib/vmware-vix/Workstation-10.0.0-and-vSphere-5.5.0/32bit/libvix.so</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="CApplication.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CApplication.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CVMInterface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CVMInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lapi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lapi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lauxlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lauxlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lbaselib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lbitlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lcode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lcode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lcorolib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lctype.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lctype.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/ldblib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ldebug.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ldebug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/ldo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ldo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/ldump.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lfunc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lfunc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lgc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lgc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/linit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/liolib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/llex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/llex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/llimits.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lmathlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lmem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lmem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/loadlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lobject.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lobject.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lopcodes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lopcodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/loslib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lparser.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lparser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lstate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lstate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lstring.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lstring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lstrlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ltable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ltable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/ltablib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ltm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/ltm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lua.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lua.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lua.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/luac.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/luaconf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lualib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lundump.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lundump.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lvm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lvm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lua/lzio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lua/lzio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="luna.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="scripts/VAlphaBuildGame.lua" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scripts/VSLVBuildGame.lua" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scripts/test.lua" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
