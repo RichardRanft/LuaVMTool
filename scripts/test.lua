@@ -37,9 +37,9 @@ else
     VMInterface = CVMInterface();
     -- set up user name and password
     VMInterface.setHostUserName("sgp1000");
-    VMInterface.setHostPassword("7w34034g354q634");
+    VMInterface.setHostPassword("");
     VMInterface.setUserName("root");
-    VMInterface.setPassword("ballytech");
+    VMInterface.setPassword("");
     -- start our VM
 	if getOS() == "Linux" then
 		--VMInterface.startVM("/home/sgp1000/vmware/AlphaBuildEnv/SB_5.00.00.002");
